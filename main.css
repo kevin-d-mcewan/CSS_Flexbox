@@ -1,0 +1,57 @@
+body {
+	color: red;
+}
+
+#span-2 {
+
+	background-color: purple;
+
+}
+
+#div-2 {
+	background-color: green;
+}
+
+#img{
+	width:50px;
+	height:50px;
+}
+
+.title{
+	font-size: 6rem;
+}
+
+.subtitle{
+	font-size: 4rem;
+}
+
+@media all and (max-width: 500px) {
+	body {
+		color:  blue;
+	}
+}
+
+@media screen, (max-height: 720px) {
+	body {
+		color: yellow;
+		font-kerning: italic;
+		inset: 75%;
+		shadow-radius: 0px 5px 5px 0px;
+	}
+}
+
+@media(orientation: landscape){
+	.title{
+		color: green;
+	}
+}
+
+@media (orientation: portrait) {
+	.subtitle{
+		color:  cyan;
+	}
+}
+
+@media all () {
+	
+}
